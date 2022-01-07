@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="form.html">Form</a>
+                </li>
+                <li> <a href="table.html">Table</a>
+                </li>
+                <li> <a href="semantic.html">Semantics</a>
+                </li>
+                <li> <a href="position.html">Position</a>
+                </li>
+                <li> <a href="about.html">About Us</a>
+                </li>
+            </ul>
+        </nav>
+        <h1>Welcome to my form page</h1>
+    </header>
+    <form>
+        <p>Name: <input type="text" name="name" placeholder="Name" id=""></p>
+        <p>Email: <input type="email" name="email" placeholder="Email" id=""></p>
+        <fieldset>
+            <legend>Select your phita</legend>
+            <p>
+                <label for="bavapita">
+                    <input type="radio" name="pita" id="bavapita">BavaPita
+                </label>
+            </p>
+            <p>
+                <label for="chitoy">
+                    <input type="radio" name="pita" id="chitoy">chitoy
+                </label>
+            </p>
+            <p>
+                <label for="thalpita">
+                    <input type="radio" name="pita" id="thalpita">thalpita
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Select you juice</legend>
+            <p><label for="lemon"><input type="checkbox" name="juice" id="lemon">Lemon</label></p>
+            <p><label for="sweet"><input type="checkbox" name="juice" id="sweet">Sweet</label></p>
+            <p><label for="mango"><input type="checkbox" name="juice" id="mango">Mango</label></p>
+        </fieldset>
+        <p>Special Instructions:</p>
+        <br>
+        <textarea name="instruction" id="instruction" cols="30" rows="10"></textarea>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        div {
+            background-color: indianred;
+            width: 300px;
+            height: 300px;
+            border-image-slice: 30;
+            /* border-image-slice: 30 fill; */
+            border-image: url('https://picsum.photos/200/300') round;
+            border-image-slice: calc(50 / 184 * 100%) calc(80 / 284 * 100%) fill;
+            border-image-width: 50px 5px;
+            background-repeat:no-repeat;
+        }
+
+        a {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            display: inline-block;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        a:visited{
+            color:indianred;
+        }
+        .hello:hover{
+            background-color:skyblue;
+            color:seagreen;
+
+        }
+        .middle-person:focus{
+            background-color:seagreen;
+            color: white;
+        }
+        li:first-child{
+            color:chocolate;
+        }
+        li:last-child{
+            color: cornflowerblue;
+        }
+        li:nth-child(2n){
+            color:blue;
+        }
+        li:nth-child(2n+1){
+            background-color:crimson;
+        }
+        h3::before{
+            content:"Lead educare ";
+        }
+    .special:after{
+            content:", Your exam will start soon";
+            color:mediumpurple;
+            font-size: 30px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="hello">hello world</h1>
+    <div>
+        <h2>Student Name</h2>
+        <p>Student Address</p>
+        <input type="text">
+        <input class="middle-person" type="text">
+        <input type="text"> <br>
+        <a href="https://www.google.com/">Go to google</a> 
+        <a href="https://www.facebook.com/">go to facebook</a>
+        <a href="https://www.underconsideration.com/brandnew/">never visited</a>
+    
+    
+    </div>
+    <div>
+        <h2>Student Name</h2>
+        <p>Student Address</p>
+    </div>
+    <div>
+        <h2>Student Name</h2>
+        <p>Student Address</p>
+    </div>
+    <a href="">Go to github</a>
+    <a href="">Go to github</a>
+    <a href="">Go to github</a>
+    <a href="">Go to github</a>
+
+    <ul>
+        <li>Bangladesh</li>
+        <li>India</li>
+        <li>Pakistan</li>
+        <li>Nepal</li>
+        <li>Votan</li>
+        <li>Srilanka</li>
+    </ul>
+
+    <h3>Student roll no -1</h3>
+    <h3>Student roll no -2</h3>
+    <h3 class="special">Student roll no -3</h3>
+    <h3>Student roll no -4</h3>
+    <h3 class="special">Student roll no -5</h3>
+    <h3>Student roll no -6</h3>
+
+</body>
+
+</html>
