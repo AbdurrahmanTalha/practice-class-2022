@@ -24,4 +24,9 @@ nav>ul>li:hover>ul{
 .dropdown{
     display:none;
     position:absolute;
+    background-color: lightyellow;
+    padding:0;
+}
+.dropdown li{
+  margin:0 20px;
 }
